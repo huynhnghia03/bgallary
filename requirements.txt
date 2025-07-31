@@ -1,7 +1,8 @@
 python-dotenv 
+pymongo 
+motor
 cloudinary
 fastapi
 uvicorn
 pydantic
 python-multipart
-prisma
