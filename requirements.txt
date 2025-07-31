@@ -5,6 +5,5 @@ cloudinary
 fastapi
 uvicorn
 pydantic
-bson
 python-multipart
 
