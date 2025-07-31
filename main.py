@@ -6,15 +6,11 @@ from fastapi import FastAPI, File, Form, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from datetime import datetime
-from typing import List
 from dotenv import load_dotenv
 from bson import ObjectId
 
-# Tải biến môi trường
 load_dotenv()
 
-# --- Cấu hình ---
-# FastAPI App
 app = FastAPI()
 
 # MongoDB
